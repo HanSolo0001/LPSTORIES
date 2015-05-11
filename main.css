@@ -99,9 +99,13 @@ footer {
   margin: 0 5px;
 }
 
+footer a:hover {
+  color: #00ced1;
+}
 
-
-
+footer a {
+  color: #b22222;
+}
 
 /***********************************
 PAGE: STORIES
@@ -117,7 +121,7 @@ PAGE: STORIES
   float: left;
   width: 45%;
   margin: 2.5%;
-  background-color: #f5f5f5;
+  background-color: #ffb6c1;
   color: #6ab47b;
 }
 
@@ -125,7 +129,7 @@ PAGE: STORIES
   margin: 0;
   padding: 5%;
   font-size: 0.75em;
-  color: #6ab47b;
+  color: #000;
 }
 
 
@@ -188,21 +192,21 @@ PAGE: CONTACT
 COLORS
 ***********************************/
 
-/* site body */
-body {
-  background-color: #fff;
-  color: #999;
+/* site html */
+html {
+  background: linear-gradient(#ff00ff, #f08080);
+  color: #000;
 }
 
 /* green header */
 header {
-  background: #6ab47b;
+  background: #800080;
   border-color: #599a68;
 }
 
 /* nav background on mobile */
 nav {
-  background: #599a68;
+  background: #ba55d3;
 }
 
 /* logo text */
@@ -212,7 +216,7 @@ h1, h2 {
 
 /* links */
 a {
-  color: #6ab47b;
+  color: #dc143c;
 }
 
 /* nav link */
@@ -222,7 +226,7 @@ nav a, nav a:visited {
 
 /* selected nav link */
 nav a.selected, nav a:hover {
-  color: #32673f;
+  color: #00ced1;
 }
 
 
@@ -230,5 +234,4 @@ nav a.selected, nav a:hover {
 TELEPHONE LIST ITEM FOR CONTACTING
 <li class="phone"><a href="tel.555-6425">555-6425</a></li>
 ***********************/
-
 
