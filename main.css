@@ -86,11 +86,20 @@ FOOTER
 ***********************************/
 
 footer {
-  font-size: 0.75em;
+  position: relative;
+  bottom: 0px; 
+  left: 0px;
+  right: 0px;
+  height: 50px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 0.75rem;
   text-align: center;
   clear: both;
   padding-top: 50px;
-  color: #000000;
+  padding-bottom: 200px;
+  margin: 0;
+  color: #000000; 
 }
 
 .social-icon {
@@ -112,6 +121,7 @@ PAGE: STORIES
 ***********************************/
 
 #gallery {
+  display: block;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -193,9 +203,12 @@ COLORS
 ***********************************/
 
 /* site html */
-html {
-  background: linear-gradient(#ff00ff, #f08080);
+body {
+  background: linear-gradient(#f0f, #f08080);
   color: #000;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 /* green header */
@@ -234,4 +247,3 @@ nav a.selected, nav a:hover {
 TELEPHONE LIST ITEM FOR CONTACTING
 <li class="phone"><a href="tel.555-6425">555-6425</a></li>
 ***********************/
-
