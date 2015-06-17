@@ -1,7 +1,47 @@
 /*
-if (document.cookie.replace(/(?:(?:^|.*;\s*)underConstruction\s*\=\s*([^;]*).*$)|^.*$/, "$1") !== "true") {
-  alert("This site is still under construction. Leave feedback by clicking the webmasters link at the bottom of the page.");
-  document.cookie = "underConstructione=true; expires=Fri, 31 Dec 9999 23:59:59 GMT; path=/";
-}
+Gallery Lightbox On Stories Page
 */
+
+//Problem: User when clicking on image goes to a dead end
+//Solution: Create an overlay with the large image - Lightbox
+
+var $overlay = $('<div id="overlay"></div>');
+var $image = $("<img>");
+var $caption = $("<p></p>");
+
+// An image to overlay
+$overlay.append($image);
+
+// A caption to overlay
+$overlay.append($caption);
+
+// Add overlay
+$("body").append($overlay);
+
+// Capture the click event on a link to an image
+$("#gallery a").click(function(event){
+  event.preventDefault();
+  var imageLocation = $(this).attr("href");
+  // Update overlay with the image linked in the link
+  $image.attr("src", imageLocation);
+  
+  // Show the overlay.
+  $overlay.show();
+  
+  
+  // Get child's alt attribute and set caption
+  var captionText = $(this).children("img").attr("alt");
+  $caption.text("Meet fifteen year old Crystal O'Mally who is drawn to the excitement of mysteries. She gets a chance to unravel a mystery and things don't go as planned.");
+ }); 
+
+// When overlay is clicked
+$overlay.click(function(){
+  // Hide the overlay
+  $overlay.hide();
+});
+  
+
+
+
+
 
