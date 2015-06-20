@@ -109,6 +109,10 @@ footer {
   clear: both;
   margin: 0;
   color: #000000; 
+  position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 .social-icon {
