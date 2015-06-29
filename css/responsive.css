@@ -1,10 +1,17 @@
-@media screen and (min-width: 480px) {
+@media (min-width: 320px) and (max-width: 568px)
+
+  #nav ul {
+    display:none;
+  }  
+    
+    
+@media (min-width: 568px) {
  
   /***********************************
   TWO COLUMN LAYOUT
   ***********************************/
-  
-  #primary {
+    
+    #primary {
     width: 50%;
     float: left;
   }
@@ -48,14 +55,16 @@
   }
 
 }
-
-@media screen and (min-width: 660px) {
  
 /***********************************
   HEADER
 ***********************************/
 
-  nav {
+  #menu select, #menu button {
+    display:none;  
+  }
+    
+  #menu {
     background: none;
     float: right;
     font-size: 1.125em;
@@ -91,10 +100,9 @@ Page: Stories
     
 .left {
   float: left;   
-}
+ }
     
 .right {
   float: right;   
-}
-    
+ }
 }
