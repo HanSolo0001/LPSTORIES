@@ -90,7 +90,7 @@
   }
 
   header {
-    border-bottom: 5px solid #ba55d3;
+    border-bottom: 5px solid rgba(0, 102, 255, 1);
     margin-bottom: 60px;
   }
 
