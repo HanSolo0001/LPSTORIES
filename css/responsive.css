@@ -33,7 +33,7 @@
 ***********************************/
 
 #gallery li {
-  width: 28.3333%;    
+  width: inherit;    
   }
 
 #gallery li:nth-child(4n) {
@@ -98,11 +98,7 @@
 Page: Stories
 *************************************/
     
-.left {
-  float: left;   
- }
-    
-.right {
-  float: right;   
+.left, .right {
+  display: inline-block;
  }
 }

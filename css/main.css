@@ -96,7 +96,6 @@ NAVIGATION
     background: rgba(0, 0, 61, 1);
 	
 }
-
 #nav li {
 	display: inline-block;
 	width: 84px;
@@ -168,11 +167,10 @@ PAGE: STORIES
 }
 
 #gallery li {
-  margin: auto;
+  margin: 2%;
   padding: 0;    
   background-color: rgba(221, 221, 221, 1);
   background-repeat: no-repeat;
-  color: #6ab47b;
   text-align: center;
 }
 
