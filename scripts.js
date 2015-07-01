@@ -31,7 +31,7 @@ $("#gallery a").click(function(event){
   
   // Get child's alt attribute and set caption
   var captionText = $(this).children("img").attr("alt");
-  $caption.text("Meet fifteen year old Crystal O'Mally who is drawn to the excitement of mysteries. She gets a chance to unravel a mystery and things don't go as planned.");
+  $caption.text(captionText);
  }); 
 
 // When overlay is clicked

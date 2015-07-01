@@ -32,7 +32,7 @@ h3 {
   display: block;
   font-size: 1.17em;
   font-weight: bold;
-  padding-top: 5%;
+  padding-top: .5%;
 }
 
     
@@ -133,12 +133,8 @@ footer {
   font-size: 0.75rem;
   text-align: center;
   clear: both;
-  margin: 0;
-  color: #000000;
-  position: absolute;
-    bottom: -75%;
-    left: 0;
-    right: 0;  
+  margin-top: 200px;
+  color: #000000;  
 }
 
 .social-icon {
@@ -185,7 +181,7 @@ PAGE: STORIES
   background: rgba(0,0,0,0.7);
   width: 100%;
   height: 100%;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   display: none;
@@ -197,7 +193,8 @@ PAGE: STORIES
 }
 
 #overlay p {
-  color: white;    
+  color: white;
+  font-size: 1em;
 }
 
 /***********************************
@@ -216,7 +213,6 @@ PAGE: ABOUT
   padding: 0;
   margin: 0;
   font-size: 0.9em;
-  float: left;
 }
 
 

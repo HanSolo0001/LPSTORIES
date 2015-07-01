@@ -21,7 +21,7 @@
     float: right;
   }
 
-.left, .right {
+#diamondCaper, #anythingButADiamond {
     float: none;
     text-align: center;
     margin: -5%;
@@ -40,7 +40,7 @@
     clear: left;
   }
     
-.right, .left {
+#diamondCaper, #anythingButADiamond {
     text-align: center;
     float: none;
 }
@@ -98,7 +98,7 @@
 Page: Stories
 *************************************/
     
-.left, .right {
+#diamondCaper, #anythingButADiamond {
   display: inline-block;
  }
 }
