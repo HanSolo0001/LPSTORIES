@@ -1,139 +1,31 @@
-/***********************************
-GENERAL
-***********************************/
-
-html {
-  height: 100%;
-}
+/******************************************** 
+Layout
+********************************************/
 
 body {
-  font-family: 'Open Sans', sans-serif;
-  height: 100%;
-  margin: 0;
+	padding-top: 70px;
 }
-
-#wrapper {
-  max-width: 100%;
-  margin: 0 auto;
-  padding: 0 5%;
+.container {
+	max-width: 1000px;
 }
-
-a {
-text-decoration: none;
-}
-
-img {
-  max-width: 100%;
-  margin: 10px;
-}
-
-h3 {
-  margin: 0 0 1em 0;
-  display: block;
-  font-size: 1.17em;
-  font-weight: bold;
-  padding-top: .5%;
-}
-
-    
-/***********************************
-HEADING
-***********************************/
 
 #notification {
   float: center;
   text-align: center;
-  font-size: .7em;
+  font-size: 1em;
   margin: .5%;
-  color: #999;    
+  color: rgba(230, 184, 0, 1);    
 }
-
-header {
-  float: left;
-  margin: 0 0 30px 0;
-  padding: 5px 0 0 0;
-  width: 100%;
-}
-
-#logo {
-  text-align: center;
-  margin: 0;
-}
-
-h1 {
-  font-family: 'Changa One', sans-serif;
-  margin: 15px 0;
-  font-size: 1.75em;
-  font-weight: normal;
-  line-height: 0.8em;
-}
-
-h2 {
-  font-size: 0.75em;
-  margin: -5px 0 0;
-  font-weight: normal;
-}
-
-
-
-/***********************************
-NAVIGATION
-***********************************/
-
-#menu {
-    float: left;
-	height: 60px;
-	padding: 0 5px 0;
-	text-align: center;
-    margin: 20px 0 0;
-    display: block;
-}
-
-#nav {
-    list-style: none;
-    margin: 0 10px;
-    padding: 0;
-    background: rgba(0, 0, 61, 1);
-	
-}
-#nav li {
-	display: inline-block;
-	width: 84px;
-	text-align: center;
-}
-
-#nav li a {
-    font-weight: 800;
-    padding: 15px 10px;
-	color: #fff;
-	width: 100%;
-	line-height: 60px;
-	text-decoration: none;
-}
-
-#nav li.selected {
-	background: #fff;
-}
-
-#nav li.selected a {
-	color: rgba(0, 0, 61, 1);
-}
-
-select {
-	width: 94%;
-	margin: 11px  0 11px 2%;
-	float: left;
-}
-
-/***********************************
+/******************************************** 
 FOOTER
-***********************************/
+********************************************/
 
-footer {
-  font-size: 0.75rem;
+#footer {
+  font-size: 1em;
   text-align: center;
   clear: both;
-  margin-top: 200px;
+  margin-top: 5%;
+  padding-top: 20%;
   color: #000000;  
 }
 
@@ -143,38 +35,30 @@ footer {
   margin: 0 5px;
 }
 
-footer a:hover {
+#footer a:hover {
   color: rgba(102, 102, 255, 1);
 }
 
-footer a {
+#footer a {
   color: #b22222;
 }
 
-/***********************************
+/******************************************** 
 PAGE: STORIES
-***********************************/
+********************************************/
 
 #gallery {
   display: block;
-  margin: 0;
-  padding: 0;
   list-style: none;
+  margin: 3% 0 0 0;
 }
 
 #gallery li {
-  margin: 2%;
-  padding: 0;    
+  margin: 0;
+  padding: 0;   
   background-color: rgba(221, 221, 221, 1);
   background-repeat: no-repeat;
   text-align: center;
-}
-
-#gallery li a p {
-  margin: 2%;
-  padding: 1%;
-  font-size: 0.75em;
-  color: #000;
 }
 
 #overlay {
@@ -194,17 +78,20 @@ PAGE: STORIES
 
 #overlay p {
   color: white;
-  font-size: 1em;
+  font-size: 1.5em;
+  font-stretch: condensed;
+  padding: 0em 5em 5em 5em;
+  font-family: inherit;    
 }
 
-/***********************************
+/******************************************** 
 PAGE: ABOUT
-***********************************/
+********************************************/
 
 .profile-photo {
   display: block;
-  max-width: 150px;
-  margin: 0 auto 30px;
+  max-width: 100%;
+  margin: 5% auto;
   border-radius: 100%;
 }
 
@@ -212,21 +99,22 @@ PAGE: ABOUT
   list-style: none;
   padding: 0;
   margin: 0;
-  font-size: 0.9em;
+  font-size: 1em;
 }
 
-
-
-
-/***********************************
+/******************************************** 
 PAGE: CONTACT
-***********************************/
+********************************************/
+
+#info {
+    margin: 5%;
+}
 
 .contact-info {
   list-style: none;
   padding: 0;
   margin: 0;
-  font-size: 0.9em;
+  font-size: 1em;
 }
 
 .contact-info a {
@@ -250,32 +138,21 @@ PAGE: CONTACT
   background-image: url('../img/facebook.png');
 }
 
-/***********************************
+/******************************************** 
 COLORS
-***********************************/
+********************************************/
 
 /* site body */
 body {
   background: linear-gradient(to bottom, rgba(195,217,255,1) 0%,rgba(177,200,239,1) 41%,rgba(152,176,217,1) 100%);
-  background-repeat: none;
   background-attachment: fixed;
   margin: 0;
   color: #000;
   }
 
-/* purple header */
-header {
+/* Black/Silver Gradient NavBar */
+.navbar {
   background: linear-gradient(to bottom, rgba(79,79,79,1) 0%,rgba(14,14,14,1) 100%);
-}
-
-/* nav background on mobile */
-#nav {
-  background: none;
-}
-
-/* logo text */
-h1, h2 {
-  color: #fff;
 }
 
 /* links */
@@ -283,18 +160,23 @@ a {
   color: #dc143c;
 }
 
-/* nav link */
-#nav a, #nav a:visited {
-  color: #fff;
+/******************************************** 
+MEDIA QUERIES
+********************************************/
+
+@media screen and (max-width: 400px) {
+  @-ms-viewport {
+    width: 320px;
+  }
+  .profile-photo {
+  display: block;
+  max-width: 100%;
+  margin: 20% auto;
+  border-radius: 100%;
+ }    
 }
 
-/* selected nav link */
-#nav a.selected, #nav a:hover {
-  color: rgba(0, 102, 255, 1);
-}
 
 
-/***********************
-TELEPHONE LIST ITEM FOR CONTACTING
-<li class="phone"><a href="tel.555-6425">555-6425</a></li>
-***********************/
+
+

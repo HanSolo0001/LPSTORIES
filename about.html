@@ -1,33 +1,45 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
     <title>Leah Pugh Stories</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link href='http://fonts.googleapis.com/css?family=Changa+One%7cOpen+Sans:400,400italic,700,700italic,800' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/responsive.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet" media="screen">
+    <link href="css/main.css" rel="stylesheet" media="screen">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
   </head>
   <body>
-    <header>
-    <div id="notification">
+    <!-- NAVBAR -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+      <div id="notification">
     This site is still under construction. Leave feedback by clicking the link at the bottom of the page.
     </div>
-      <a href="index.html" id="logo">
-      <h1>Leah Pugh</h1>
-      <h2>Author</h2>
-    </a>
-    <div id="menu">
-      <ul id="nav">
-        <li><a href="index.html">Stories</a></li>
-        <li><a href="about.html" class="selected">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
+       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>      
+        <a class="navbar-brand text-muted" href="index.html">Leah Pugh</a>
+        <div class="collapse navbar-collapse">
+
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html">Stories</a></li>
+            <li class="active"><a href="about.html">About Leah</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
     </div>
-   </header>
-   <div id="wrapper">
-    <section>
+    <!-- END NAVBAR -->
+    <!-- CONTAINER -->  
+    <div class="container"> 
+      <!-- MAIN BODY CONTENT -->    
+      <section>
       <img src="img/LeahPugh.jpg" alt="Photo of Leah Pugh" class="profile-photo">
       <h3>About</h3>
       <p>Hi, my name is Leah Pugh, and I am an author. I mainly write children's books, but am working on some other novels as well. I am currently working on the third book in the Crystal O'Mally series.  The second book is in the final editing stages, and I am just waiting on my publishing company, Mystic Mustangs, to get back to me on it!</p>
@@ -42,11 +54,18 @@
         <li><a href="https://www.smashwords.com/books/view/173026">Smashwords.com</a></li>
         <li><a href="http://www.barnesandnoble.com/w/the-diamond-caper-leah-pugh/1111939960?ean=2940044665088">Barnesandnoble.com</a></li>
       </ul>
-    </section> 
-  </div>
-      <footer>
-      <a href="https://www.facebook.com/LeahPughAuthor?fref=ts"><img src="img/facebook-wrap.png" alt="Facebook Logo" class="social-icon"></a>
+    </section>
+      <!-- END MAIN BODY CONTENT --> 
+      <!-- FOOTER -->     
+      <div id="footer">
+        <a href="https://www.facebook.com/LeahPughAuthor?fref=ts"><img src="img/facebook-wrap.png" alt="Facebook Logo" class="social-icon"></a>
       <p>&copy; 2015 LPSTORIES | This website was designed and coded by <a href="mailto:danielh.webdev@gmail.com">Daniel Hildreth</a></p>
-    </footer>
+      </div>
+    <!-- END FOOTER -->    
+    </div>
+    <!-- END CONTAINER -->  
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>    
   </body>
 </html>

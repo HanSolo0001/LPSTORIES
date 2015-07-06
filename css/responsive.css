@@ -1,7 +1,7 @@
 @media (min-width: 320px) and (max-width: 568px)
 
-  #nav ul {
-    display:none;
+  #nav {
+    display: none;
   }  
     
     
@@ -24,7 +24,7 @@
 #diamondCaper, #anythingButADiamond {
     float: none;
     text-align: center;
-    margin: -5%;
+    margin: 5%;
     padding: 1%;
 }
     
@@ -33,7 +33,7 @@
 ***********************************/
 
 #gallery li {
-  width: inherit;    
+  margin: auto;    
   }
 
 #gallery li:nth-child(4n) {
