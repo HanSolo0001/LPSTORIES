@@ -12,14 +12,14 @@ body {
 #notification {
   float: center;
   text-align: center;
-  font-size: 1em;
-  margin: .5%;
+  font-size: .8em;
+  margin: 0;
   color: rgba(230, 184, 0, 1);    
 }
 
 .welcome {
   text-align: center;
-  margin: 2% 0;
+  margin: 8% 0 5%;
 }
 
 .welcome-info {
@@ -35,9 +35,8 @@ FOOTER
 ********************************************/
 
 #footer {
-  position: absolute;
-  margin-top: 40px;
-  padding-bottom: 0;
+  margin-top: 28%;
+  padding: 0 20px;
   bottom: 0;
   width: 100%;
   text-align: center;
@@ -63,11 +62,22 @@ FOOTER
 PAGE: STORIES
 ********************************************/
 
-.diamondCaper, .anythingButADiamond {
+.diamondCaper {
   list-style: none;
   background-color: rgba(221, 221, 221, 1);
-  background-size: 5px;
+  background-size: 5px;    
+  padding: 10px;
   text-align: center;
+  margin: 20px;
+}
+
+.anythingButADiamond {
+  list-style: none;
+  background-color: rgba(221, 221, 221, 1);
+  background-size: 5px;    
+  padding: 10px;
+  text-align: center;
+  margin: 20px;
 }
 
 #overlay {
@@ -104,11 +114,16 @@ PAGE: ABOUT
   border-radius: 100%;
 }
 
+.about, .purchase {
+    text-align: center;
+}
+
 .website-purchase {
   list-style: none;
   padding: 0;
   margin: 0;
   font-size: 1em;
+  text-align: center;
 }
 
 /******************************************** 
@@ -179,21 +194,25 @@ a:hover {
 MEDIA QUERIES
 ********************************************/
 
-@media screen and (max-width: 400px) {
-  @-ms-viewport {
+/*
+@media screen and (orientation: potrait, max-width: 480px) {
+  
+    @-ms-viewport {
     width: 320px;
   } 
+    
     #anythingButADiamond, #diamondCaper {
       clear: both;
       float: none;
     }
     .about {
-        margin-top: 5%;
+        padding: 1%;
     }
     #notification {
         font-size: .8em;
     }
 }
+*/
 
 
 
