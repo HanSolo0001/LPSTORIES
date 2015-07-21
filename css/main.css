@@ -198,26 +198,79 @@ a:hover {
 MEDIA QUERIES
 ********************************************/
 
-/*
-@media screen and (orientation: potrait, max-width: 480px) {
-  
-    @-ms-viewport {
-    width: 320px;
-  } 
-    
-    #anythingButADiamond, #diamondCaper {
-      clear: both;
-      float: none;
+@media screen and (max-width: 400px) {
+    .gallery {
+       margin-bottom: 20%;
     }
-    .about {
-        padding: 1%;
+    .gallery img {
+        width: 50%;
     }
-    #notification {
-        font-size: .8em;
+    .anythingButADiamond, .diamondCaper {
+        padding: 2%;
     }
 }
-*/
 
+@media screen and (min-width: 400px) {
+    .gallery {
+       margin-bottom: 20%;
+    }
+    .gallery img {
+        width: 50%;
+    }
+    .anythingButADiamond, .diamondCaper {
+        padding: 5% 10%;
+        margin: 10% 15%;
+    }
+    .welcome, .welcome-info {
+        margin: 2%;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .gallery {
+       margin-bottom: 10%;
+    }
+    .gallery img {
+        width: 100%;
+    }
+    .anythingButADiamond, .diamondCaper {
+        margin: 5% 25%;
+    }
+    .welcome, .welcome-info {
+        margin: 2%;
+    }
+    .social-icon {
+        padding: 0;
+        margin: .5% 0;
+    }
+    .website-purchase {
+        margin: 0 0 10% 0;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .gallery {
+        margin: 0 5% 0 0;
+        padding: 5% 20%;
+    }
+    .gallery img {
+        width: 100%;
+    }
+    .anythingButADiamond, .diamondCaper {
+        padding: 5% 10%;
+        margin: 5% 30%;
+    }
+    .welcome, .welcome-info {
+        margin: 2%;
+    }
+    .social-icon {
+        padding: 0;
+        margin: .5% 0;
+    }
+    .website-purchase {
+        margin: 0 0 10% 0;
+    }
+}
 
 
 
