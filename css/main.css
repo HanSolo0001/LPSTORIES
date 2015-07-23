@@ -208,6 +208,24 @@ MEDIA QUERIES
     .anythingButADiamond, .diamondCaper {
         padding: 2%;
     }
+    .website-purchase {
+        margin: 0 0 30% 0;
+    }
+    #overlay img {
+        margin: 30% 0 0 0;
+        height: 50%;
+    }
+    #overlay p {
+        font-size: 1.1em;
+        font-stretch: ultra-condensed;
+        padding: .5% 1%;
+    }
+    .about {
+        margin: 0;
+    }
+    .profile-photo {
+        padding-top: 5%;
+    }
 }
 
 @media screen and (min-width: 400px) {
@@ -222,7 +240,29 @@ MEDIA QUERIES
         margin: 10% 15%;
     }
     .welcome, .welcome-info {
-        margin: 2%;
+        margin: 5%;
+    }
+    .website-purchase {
+        margin: 0 0 30% 0;
+    }
+    .contact-info {
+	  margin: 0 0 20% 0;
+    }
+    #overlay img {
+        margin: 0;
+        padding-top: 15%;
+    }
+     #overlay p {
+        font-size: 1.2em;
+        font-stretch: ultra-condensed;
+        padding: 2%;
+        margin: 0 2% 
+    }
+    .about {
+        margin: 0;
+    }
+    .profile-photo {
+        padding-top: 5%;
     }
 }
 
@@ -245,6 +285,16 @@ MEDIA QUERIES
     }
     .website-purchase {
         margin: 0 0 10% 0;
+    }
+     #overlay img {
+        margin: 0;
+        padding-top: 15%;
+    }
+     #overlay p {
+        font-size: 1.2em;
+        font-stretch: ultra-condensed;
+        padding: 2%;
+        margin: 0 2% 
     }
 }
 
@@ -269,6 +319,16 @@ MEDIA QUERIES
     }
     .website-purchase {
         margin: 0 0 10% 0;
+    }
+     #overlay img {
+        margin: 0;
+        padding-top: 10%;
+    }
+     #overlay p {
+        font-size: 1.3em;
+        font-stretch: ultra-condensed;
+        padding: 2%;
+        margin: 0 2% 
     }
 }
 
