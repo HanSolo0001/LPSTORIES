@@ -85,7 +85,7 @@ PAGE: STORIES
 }
 
 #overlay {
-  background: rgba(0,0,0,0.7);
+  background: rgba(0,0,0,0.8);
   width: 100%;
   height: 100%;
   position: fixed;
@@ -106,6 +106,15 @@ PAGE: STORIES
   padding: 0em 5em 5em 5em;
   font-family: inherit;    
 }
+
+/******************************************** 
+PAGE: PURCHASE
+********************************************/
+
+#table {
+    overflow: auto;
+    width: 100%;
+    }
 
 /******************************************** 
 PAGE: ABOUT
@@ -212,19 +221,22 @@ MEDIA QUERIES
         margin: 0 0 30% 0;
     }
     #overlay img {
-        margin: 30% 0 0 0;
-        height: 50%;
+        visibility: hidden;
     }
     #overlay p {
-        font-size: 1.1em;
+        font-size: 1.2em;
         font-stretch: ultra-condensed;
-        padding: .5% 1%;
+        margin: 0;
+        padding: 5% 2%;
     }
     .about {
         margin: 0;
     }
     .profile-photo {
         padding-top: 5%;
+    }
+    #table {
+        margin: 0 0 30% 0;
     }
 }
 
@@ -249,8 +261,7 @@ MEDIA QUERIES
 	  margin: 0 0 20% 0;
     }
     #overlay img {
-        margin: 0;
-        padding-top: 15%;
+        visibility: hidden;
     }
      #overlay p {
         font-size: 1.2em;
@@ -263,6 +274,9 @@ MEDIA QUERIES
     }
     .profile-photo {
         padding-top: 5%;
+    }
+    #table {
+        margin: 0 0 25% 0;
     }
 }
 
@@ -289,12 +303,16 @@ MEDIA QUERIES
      #overlay img {
         margin: 0;
         padding-top: 15%;
+        visibility: visible; 
     }
      #overlay p {
         font-size: 1.2em;
         font-stretch: ultra-condensed;
         padding: 2%;
         margin: 0 2% 
+    }
+    #table {
+        margin: 0 0 20% 0;
     }
 }
 
@@ -323,12 +341,16 @@ MEDIA QUERIES
      #overlay img {
         margin: 0;
         padding-top: 10%;
+        visibility: visible;  
     }
      #overlay p {
-        font-size: 1.3em;
+        font-size: 1.4em;
         font-stretch: ultra-condensed;
         padding: 2%;
         margin: 0 2% 
+    }
+    #table {
+        margin: 0 0 10% 0;
     }
 }
 
