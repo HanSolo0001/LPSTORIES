@@ -40,16 +40,3 @@ $overlay.click(function(){
   $overlay.hide();
 });
   
-
-
-/***************************************************************
-Color Scheme that Marcus Parsons Suggested
-
-
-var styleEl = document.createElement('style');
-styleEl.type = 'text/css';
-document.getElementsByTagName('head')[0].appendChild(styleEl);
-styleEl.appendChild(document.createTextNode('body, #wrapper { background: linear-gradient(to bottom, rgba(195,217,255,1) 0%,rgba(177,200,239,1) 41%,rgba(152,176,217,1) 100%); } #wrapper { max-width: 100%; } header { background: linear-gradient(to bottom, rgba(79,79,79,1) 0%,rgba(14,14,14,1) 100%); border: none; } '));
-var notif = document.querySelector('#notification'); 
-document.querySelector('header').removeChild(notif);
-*******************************************************************/
