@@ -38,7 +38,4 @@ $(".gallery a").click(function(event){
 $overlay.click(function(){
   // Hide the overlay
   $overlay.hide();
-<<<<<<< HEAD
 });
-=======
-
