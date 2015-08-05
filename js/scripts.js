@@ -39,3 +39,43 @@ $overlay.click(function(){
   // Hide the overlay
   $overlay.hide();
 });
+
+/*************************************************************
+            Navbar Opacity After Scrolling
+**************************************************************/
+
+var $navbar = $('.navbar');
+
+$(window).scroll(function () {
+
+   if(scrollY <= 0){
+       $navbar.animate({
+            opacity: 1
+       }, 500);
+   }
+   if(scrollY > 0 && $navbar.is(':not(:animated)')){
+       $navbar.animate({
+            opacity: .5
+       }, 500);
+    }
+ });
+
+/*************************************************************
+            Footer Opacity After Scrolling
+**************************************************************/
+
+var $footer = $('#footer');
+
+$(window).scroll(function () {
+
+   if(scrollY <= 0){
+       $footer.animate({
+            opacity: .7
+       }, 500);
+   }
+   if(scrollY > 0 && $footer.is(':not(:animated)')){
+       $footer.animate({
+            opacity: 1
+       }, 500);
+    }
+ });
