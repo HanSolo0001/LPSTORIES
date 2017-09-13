@@ -10,24 +10,25 @@ body {
 }
 
 #notification {
-  float: center;
-  text-align: center;
-  font-size: .8em;
-  margin: 0;
-  color: rgba(230, 184, 0, 1);    
+    float: center;
+    text-align: center;
+    font-size: 1.2em;
+    margin: 0;
+    color: rgba(230, 184, 0, 1);    
 }
 
 .welcome {
-  text-align: center;
-  margin: 8% 0 5%;
+    text-align: center;
+    margin: 8% 0 5%;
 }
 
 .welcome-info {
-  text-align: center;
-  margin: 2%;
+    text-align: center;
+    margin: 2%;
 }
 .about {
-  margin-top: 2%;
+    margin: 0;
+    padding-top: 5%;
 }
 
 /******************************************** 
@@ -35,31 +36,31 @@ FOOTER
 ********************************************/
 
 #footer {
- margin: 28% 0 0 0;
- padding: 0 .5%;
- bottom: 0px;
- width: 100%;
- text-align: center;
- color: #000000;
- font-size: 1em;
- position: fixed;
- background: linear-gradient(to bottom, rgba(79,79,79,1) 0%,rgba(14,14,14,1) 100%)
+    margin: 28% 0 0 0;
+    padding: 0 .5%;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    color: lightslategrey;
+    font-size: 1em;
+    position: fixed;
+    background: linear-gradient(to bottom, rgba(79,79,79,1) 0%,rgba(14,14,14,1) 100%)
 }
 
 .social-icon {
-  color: blue; 
-  width: 20px;
-  height: 20px;
-  margin: 0 5px;
+    color: blue; 
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
 }
 
 #footer a:hover {
-  color: #40404A;
-  text-decoration: none;    
+    color: #40404A;
+    text-decoration: none;
 }
 
 #footer a {
-  color: lightslategrey;
+    color: lightsteelblue;
 }
 
 /******************************************** 
@@ -67,44 +68,44 @@ PAGE: STORIES
 ********************************************/
 
 .diamondCaper {
-  list-style: none;
-  background-color: rgba(221, 221, 221, 1);
-  background-size: 5px;    
-  padding: 10px;
-  text-align: center;
-  margin: 20px;
+    list-style: none;
+    background-color: rgba(221, 221, 221, 1);
+    background-size: 5px;    
+    padding: 10px;
+    text-align: center;
+    margin: 20px;
 }
 
 .anythingButADiamond {
-  list-style: none;
-  background-color: rgba(221, 221, 221, 1);
-  background-size: 5px;    
-  padding: 10px;
-  text-align: center;
-  margin: 20px;
+    list-style: none;
+    background-color: rgba(221, 221, 221, 1);
+    background-size: 5px;    
+    padding: 10px;
+    text-align: center;
+    margin: 20px;
 }
 
 #overlay {
-  background: rgba(0,0,0,0.8);
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  display: none;
-  text-align: center;
+    background: rgba(0,0,0,0.8);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    text-align: center;
 }
 
 #overlay img {
-  margin-top: 10%;
+    margin-top: 10%;
 }
 
 #overlay p {
-  color: white;
-  font-size: 1.5em;
-  font-stretch: condensed;
-  padding: 0em 5em 5em 5em;
-  font-family: inherit;    
+    color: white;
+    font-size: 1.5em;
+    font-stretch: condensed;
+    padding: 0em 5em 5em 5em;
+    font-family: inherit;    
 }
 
 /******************************************** 
@@ -121,22 +122,45 @@ PAGE: ABOUT
 ********************************************/
 
 .profile-photo {
-  display: block;
-  max-width: 100%;
-  margin: 3% auto 1%;
-  border-radius: 100%;
+    display: block;
+    max-width: 100%;
+    margin: 2% 0 0 45%;
+    align-content: center;
+    border: 5px solid white;
+    -webkit-box-shadow: 5px 5px 5px #111;
+            box-shadow: 5px 5px 5px #111; 
 }
+.morph {
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+ 
+.morph:hover {
+  border-radius: 50%;
+  -webkit-transform: rotate(360deg);
+     -moz-transform: rotate(360deg);
+       -o-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
 
 .about, .purchase {
     text-align: center;
 }
 
 .website-purchase {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  font-size: 1em;
-  text-align: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 1em;
+    text-align: center;
+}
+.awards {
+    
 }
 
 /******************************************** 
@@ -148,31 +172,31 @@ PAGE: CONTACT
 }
 
 .contact-info {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  font-size: 1em;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 1em;
 }
 
 .contact-info a {
-  display: block;
-  min-height: 20px;
-  background-repeat: no-repeat;
-  background-size: 20px 20px;
-  padding: 0 0 0 30px;
-  margin: 0 0 10px;
+    display: block;
+    min-height: 20px;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    padding: 0 0 0 30px;
+    margin: 0 0 10px;
 }
 
 .contact-info li.phone a {
-  background-image: url('../img/phone.png');
+    background-image: url('../img/phone.png');
 }
 
 .contact-info li.mail a {
-  background-image: url('../img/mail.png');
+    background-image: url('../img/mail.png');
 }
 
 .contact-info li.facebook a {
-  background-image: url('../img/facebook.png');
+    background-image: url('../img/facebook.png');
 }
 
 /******************************************** 
@@ -181,26 +205,26 @@ COLORS
 
 /* site body */
 body {
-  background: linear-gradient(to bottom, rgba(195,217,255,1) 0%,rgba(177,200,239,1) 41%,rgba(152,176,217,1) 100%);
-  background-attachment: fixed;
-  margin: 0;
-  color: #000;
-  }
+    background: linear-gradient(to bottom, rgba(195,217,255,1) 0%,rgba(177,200,239,1) 41%,rgba(152,176,217,1) 100%);
+    background-attachment: fixed;
+    margin: 0;
+    color: #000;
+}
 
 /* Black/Silver Gradient NavBar */
 .navbar {
-  background: linear-gradient(to bottom, rgba(79,79,79,1) 0%,rgba(14,14,14,1) 100%);
+    background: linear-gradient(to bottom, rgba(79,79,79,1) 0%,rgba(14,14,14,1) 100%);
 }
 
 /* links */
 a {
   color: #dc143c;
-  text-decoration: none;     
+    text-decoration: none;     
 }
 
 a:hover {
-  color: #40404A;
-  text-decoration: none;
+    color: #40404A;
+    text-decoration: none;
 }
 
 /******************************************** 
@@ -232,11 +256,33 @@ MEDIA QUERIES
     .about {
         margin: 0;
     }
-    .profile-photo {
-        padding-top: 5%;
-    }
+    
     #table {
         margin: 0 0 30% 0;
+    }
+    .profile-photo {
+    display: block;
+    max-width: 100%;
+    margin: 20px 100px 0 100px;
+    align-content: center;
+    border: 5px solid white;
+    -webkit-box-shadow: 5px 5px 5px #111;
+            box-shadow: 5px 5px 5px #111; 
+    }
+    .morph {
+  -webkit-transition: none !Important;
+     -moz-transition: none !Important;
+       -o-transition: none !Important;
+      -ms-transition: none !Important;
+          transition: none !Important;
+    }
+    .morph:hover {
+  border-radius: 50%;
+  -webkit-transform: none !Important;
+     -moz-transform: none !Important;
+       -o-transform: none !Important;
+      -ms-transform: none !Important;
+          transform: none !Important;
     }
 }
 
@@ -271,9 +317,6 @@ MEDIA QUERIES
     }
     .about {
         margin: 0;
-    }
-    .profile-photo {
-        padding-top: 5%;
     }
     #table {
         margin: 0 0 25% 0;
@@ -353,7 +396,6 @@ MEDIA QUERIES
         margin: 0 0 10% 0;
     }
 }
-
 
 
 

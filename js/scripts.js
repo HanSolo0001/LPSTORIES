@@ -39,43 +39,10 @@ $overlay.click(function(){
   // Hide the overlay
   $overlay.hide();
 });
-
+  
 /*************************************************************
-            Navbar Opacity After Scrolling
+           Hide Email Using Javascript To Avoid Spam 
 **************************************************************/
-
-var $navbar = $('.navbar');
-
-$(window).scroll(function () {
-
-   if(scrollY <= 0){
-       $navbar.animate({
-            opacity: 1
-       }, 500);
-   }
-   if(scrollY > 0 && $navbar.is(':not(:animated)')){
-       $navbar.animate({
-            opacity: .5
-       }, 500);
-    }
- });
-
-/*************************************************************
-            Footer Opacity After Scrolling
-**************************************************************/
-
-var $footer = $('#footer');
-
-$(window).scroll(function () {
-
-   if(scrollY <= 0){
-       $footer.animate({
-            opacity: .7
-       }, 500);
-   }
-   if(scrollY > 0 && $footer.is(':not(:animated)')){
-       $footer.animate({
-            opacity: 1
-       }, 500);
-    }
- });
+var parts = ["lpstories", "yahoo", "com", "&#46;", "&#64;"];
+var email = parts[0] + parts[4] + parts[1] + parts[3] + parts[2];
+document.getElementById("email").innerHTML=email;
