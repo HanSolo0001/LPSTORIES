@@ -38,12 +38,10 @@ FOOTER
 #footer {
     margin: 28% 0 0 0;
     padding: 0 .5%;
-    bottom: 0px;
     width: 100%;
     text-align: center;
     color: lightslategrey;
     font-size: 1em;
-    position: fixed;
     background: linear-gradient(to bottom, rgba(79,79,79,1) 0%,rgba(14,14,14,1) 100%)
 }
 
@@ -69,7 +67,6 @@ PAGE: STORIES
 
 .diamondCaper {
     list-style: none;
-    background-color: rgba(221, 221, 221, 1);
     background-size: 5px;    
     padding: 10px;
     text-align: center;
@@ -78,7 +75,6 @@ PAGE: STORIES
 
 .anythingButADiamond {
     list-style: none;
-    background-color: rgba(221, 221, 221, 1);
     background-size: 5px;    
     padding: 10px;
     text-align: center;
@@ -100,6 +96,7 @@ PAGE: STORIES
     margin-top: 10%;
 }
 
+/*
 #overlay p {
     color: white;
     font-size: 1.5em;
@@ -107,6 +104,7 @@ PAGE: STORIES
     padding: 0em 5em 5em 5em;
     font-family: inherit;    
 }
+*/
 
 /******************************************** 
 PAGE: PURCHASE
@@ -205,7 +203,11 @@ COLORS
 
 /* site body */
 body {
-    background: linear-gradient(to bottom, rgba(195,217,255,1) 0%,rgba(177,200,239,1) 41%,rgba(152,176,217,1) 100%);
+    background: rgba(177,200,239,1);
+        /* linear-gradient(to bottom, rgba(195,217,255,1) 0%,rgba(177,200,239,1) 41%,rgba(152,176,217,1) 100%); */
+        /* #b30000; */
+        /* #bea6dd; */
+        /* #76a8f7; */
     background-attachment: fixed;
     margin: 0;
     color: #000;
@@ -217,13 +219,26 @@ body {
 }
 
 /* links */
+.welcome-info a {
+    color: #dc143c;
+    text-decoration: none;
+}
+
+.welcome-info a:hover {
+    color: #40404A;
+    text-decoration: none;
+}
+
 a {
-  color: #dc143c;
+    font-weight: 500;
+    color: #40404A;
+        /* #000066; */ 
+        /* #1501c1; */
     text-decoration: none;     
 }
 
 a:hover {
-    color: #40404A;
+    color: #dc143c;
     text-decoration: none;
 }
 
@@ -247,12 +262,14 @@ MEDIA QUERIES
     #overlay img {
         visibility: hidden;
     }
+/*
     #overlay p {
         font-size: 1.2em;
         font-stretch: ultra-condensed;
         margin: 0;
         padding: 5% 2%;
     }
+*/
     .about {
         margin: 0;
     }
@@ -309,12 +326,14 @@ MEDIA QUERIES
     #overlay img {
         visibility: hidden;
     }
+/*
      #overlay p {
         font-size: 1.2em;
         font-stretch: ultra-condensed;
         padding: 2%;
         margin: 0 2% 
     }
+*/
     .about {
         margin: 0;
     }
@@ -348,12 +367,14 @@ MEDIA QUERIES
         padding-top: 15%;
         visibility: visible; 
     }
+/*
      #overlay p {
         font-size: 1.2em;
         font-stretch: ultra-condensed;
         padding: 2%;
         margin: 0 2% 
     }
+*/
     #table {
         margin: 0 0 20% 0;
     }
@@ -386,12 +407,14 @@ MEDIA QUERIES
         padding-top: 10%;
         visibility: visible;  
     }
+/*
      #overlay p {
         font-size: 1.4em;
         font-stretch: ultra-condensed;
         padding: 2%;
         margin: 0 2% 
     }
+*/
     #table {
         margin: 0 0 10% 0;
     }
