@@ -2,6 +2,8 @@
 <html>
   <head>
     <title>Leah Pugh Stories</title>
+    <meta name="description" content="Find where to purchase a hard copy or an eBook copy of Leah's books">
+    <meta name="keywords" content="Crystal O'Mally, The Diamond Caper, Anything but a Diamond, Leah, Pugh, Purchase, Hard Copy, eBook">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link href="css/bootstrap-theme.min.css" rel="stylesheet" media="screen">
@@ -22,7 +24,7 @@ th, td {
     <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
       <div id="notification">
-    Third book coming soon!
+    New website coming soon!
     </div>
        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
           <span class="icon-bar"></span>

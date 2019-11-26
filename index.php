@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Leah Pugh Stories</title>
+    <title>Leah Pugh Stories</title>   
+    <meta name="description" content="Author Leah Pugh is known for her mystery novels and stories. She's the author of The Diamond Caper and Anything but a Diamond in the Crystal O'Mally series">
+    <meta name="keywords" content="Crystal O'Mally, The Diamond Caper, Anything but a Diamond, Leah, Pugh, Home">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link href="css/bootstrap-theme.min.css" rel="stylesheet" media="screen">
@@ -12,7 +14,7 @@
     <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
       <div id="notification">
-    Third book coming soon!
+    New website coming soon!
     </div>
        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
           <span class="icon-bar"></span>
