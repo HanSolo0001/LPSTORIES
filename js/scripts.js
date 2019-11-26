@@ -7,13 +7,13 @@
 
 var $overlay = $('<div id="overlay"></div>');
 var $image = $("<img>");
-var $caption = $("<p></p>");
+// var $caption = $("<p></p>");
 
 // An image to overlay
 $overlay.append($image);
 
 // A caption to overlay
-$overlay.append($caption);
+// $overlay.append($caption);
 
 // Add overlay
 $("body").append($overlay);
@@ -30,9 +30,9 @@ $(".gallery a").click(function(event){
   
   
   // Get child's alt attribute and set caption
-  var captionText = $(this).children("img").attr("alt");
-  $caption.text(captionText);
- }); 
+//  var captionText = $(this).children("img").attr("alt");
+//  $caption.text(captionText);
+// }); 
 
 // When overlay is clicked
 $overlay.click(function(){
@@ -43,6 +43,6 @@ $overlay.click(function(){
 /*************************************************************
            Hide Email Using Javascript To Avoid Spam 
 **************************************************************/
-var parts = ["lpstories", "yahoo", "com", "&#46;", "&#64;"];
-var email = parts[0] + parts[4] + parts[1] + parts[3] + parts[2];
-document.getElementById("email").innerHTML=email;
+//var parts = ["lpstories", "yahoo", "com", "&#46;", "&#64;"];
+//var email = parts[0] + parts[4] + parts[1] + parts[3] + parts[2];
+//document.getElementById("email").innerHTML=email;
