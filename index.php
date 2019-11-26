@@ -44,15 +44,14 @@
         <div class="row">
             <div class="diamondCaper col-sm-6 col-md-6 col-lg-6">
                 <a href="img/The%20Diamond%20Caper.jpg">
-              <img src="img/The%20Diamond%20Caper.jpg" alt="Meet fifteen year old Crystal O'Mally who is drawn to the excitement of mysteries. She gets a chance to unravel a mystery and things don't go as planned. Her father's jewelry store is robbed, a huge diamond goes missing, and her father is on the list of never-ending suspects.">
-              <p>First book in the Crystal O'Mally series.</p>
-                </a>
+              <img src="img/The%20Diamond%20Caper.jpg" alt="First book in the Crystal O'Mally series."></a>
+              <p>Meet fifteen year old Crystal O'Mally who is drawn to the excitement of mysteries. She gets a chance to unravel a mystery and things don't go as planned. Her father's jewelry store is robbed, a huge diamond goes missing, and her father is on the list of never-ending suspects.</p>
+                
             </div>
             <div class="anythingButADiamond col-sm-6 col-md-6 col-lg-6">
                 <a href="img/Anything_But_A_Diamond.jpg">
-              <img src="img/Anything_But_A_Diamond.jpg" alt="Crystal is back, and things are out of control. A mystery at Lesler's ranch has her captivated. But why? Is it because the ranch is being sabotaged, cowboys are being injured, cows are stampeding out of control, or the fact that jewelry and horses are disappearing? The suspect list is growing, and every cowboy seems to be on it.">
-              <p>Second book in the Crystal O'Mally series.</p>
-                </a>
+              <img src="img/Anything_But_A_Diamond.jpg" alt="Second book in the Crystal O'Mally series."></a>
+              <p>Crystal is back, and things are out of control. A mystery at Lesler's ranch has her captivated. But why? Is it because the ranch is being sabotaged, cowboys are being injured, cows are stampeding out of control, or the fact that jewelry and horses are disappearing? The suspect list is growing, and every cowboy seems to be on it.</p>
             </div>
         </div>
     </div>
