@@ -39,7 +39,7 @@
      <div class="row">   
       <div class="col-sm-6 .col-md-4 .col-md-offset-4 .col-lg-6 .col-lg-offset-6">
        <h3>General Information</h3>
-        <p>I am currently working on the third book in the series, and it will be released soon!</p>
+        <p>I am currently working on a few stories, and one is about to be released. My website is in the process of being redone, but it will take some time. If you have any feedback on the website or suggestions, then either reach me directly via contact details on the side, or reach out to the web developer at the bottom of the page.</p>
       </div>
       <div class="col-sm-6 .col-md-4 .col-md-offset-4 .col-lg-6 .col-lg-offset-6">
        <h3>Contact Details</h3>

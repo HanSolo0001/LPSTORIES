@@ -39,7 +39,7 @@
         <section>
         <img src="img/Leah.jpg" alt="Photo of Leah Pugh" class="morph profile-photo">
         <div class="about"> 
-            <p>An avid reader, Leah started writing stories at a young age. After publishing a few short stories and an article, she had her first novel, <i>The Diamond Caper</i>, published. The first story in the Crystal O'Mally mystery series was followed by the sequel, <i>Anything but a Diamond</i>. Leah enjoys spending time with her family, reading, baking/cooking, and, of course, writing.</p>
+            <p>I am an avid reader, and started writing stories at a young age. After publishing a few short stories and an article, I had my first novel, <i>The Diamond Caper</i>, published. The series follows a young detective named Crystal O'Mally and her little sister Emma. Together they help solve mysteries around their town. The first story in the Crystal O'Mally mystery series was followed by the sequel, <i>Anything but a Diamond</i>. I am also working on a few other stories, one of which is about to be released. I enjoy spending time with my family, reading, baking/cooking, and, of course, writing.</p>
         </div>
         </section>
       <!-- END MAIN BODY CONTENT -->
