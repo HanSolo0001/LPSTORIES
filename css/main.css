@@ -96,6 +96,11 @@ PAGE: STORIES
     margin-top: 10%;
 }
 
+#topPage {
+    text-decoration: none;
+    margin: 0 0 10% 90%;
+}
+
 /*
 #overlay p {
     color: white;
@@ -219,26 +224,16 @@ body {
 }
 
 /* links */
-.welcome-info a {
-    color: #dc143c;
-    text-decoration: none;
-}
-
-.welcome-info a:hover {
-    color: #40404A;
-    text-decoration: none;
-}
-
 a {
     font-weight: 500;
-    color: #40404A;
+    color: #dc143c;
         /* #000066; */ 
         /* #1501c1; */
     text-decoration: none;     
 }
 
 a:hover {
-    color: #dc143c;
+    color: #40404A;
     text-decoration: none;
 }
 
